@@ -18,7 +18,8 @@ In this repository I will design quad copter control system for mini drones.It's
   
   ------------------------------------------------------------------------------------------------------------------------------------
     
-    ![image](https://user-images.githubusercontent.com/57303760/181920749-0b34cf99-b7cf-4a04-8e05-b4ae3215cd7f.png)
+    ![dönme_yönleri](https://user-images.githubusercontent.com/57303760/181936734-d395e513-da17-479b-b6f4-3f13f60cb4e1.JPG)
+
 
     
     #Sensors
