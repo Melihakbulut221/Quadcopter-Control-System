@@ -5,4 +5,21 @@ In this repository I will design quad copter control system for mini drones.It's
   ---------------------|------------------------------|-------------------------|---------------------------|---------------------|
   Length/Wingspan:     |         <50 cm               |    >50 cm & < 2 metre   |       5 - 10 metre        |     > 10metre       |
   ---------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  Commands ---->   -------------------------       ----> Motor Speeds
+                   |Flight Control Software|
+  Sensors  ---->   -------------------------       ----> Shut down flag
+  
+  
+  
+                               
+                                State Estimator  <----      -------------------------    ---->    Controller
+                                                            |Flight Control Software|    
+                                Data logging     <----      -------------------------    ---->    Fault protection
+                                
+                                
+                                
+                                
+                                
 
