@@ -7,16 +7,16 @@ In this repository I will design quad copter control system for mini drones.It's
   ---------------------------------------------------------------------------------------------------------------------------------
   
   
-  Commands ---->   -------------------------       ----> Motor Speeds
-                   |Flight Control Software|
-  Sensors  ---->   -------------------------       ----> Shut down flag
+                                      Commands ---->   |-----------------------|       ----> Motor Speeds
+                                                       |Flight Control Software|
+                                      Sensors  ---->   |-----------------------|       ----> Shut down flag
   
   
   
                                
-                                State Estimator  <----      -------------------------    ---->    Controller
-                                                            |Flight Control Software|    
-                                Data logging     <----      -------------------------    ---->    Fault protection
+                                      State Estimator  <----      |-----------------------|    ---->    Controller
+                                                                  |Flight Control Software|    
+                                      Data logging     <----      |-----------------------|    ---->    Fault protection
                                 
                                 
                                 
