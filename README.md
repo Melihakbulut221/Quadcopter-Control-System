@@ -22,27 +22,47 @@ In this repository I will design quad copter control system for mini drones.It's
     
    ##Sensors##
       
-   ##Ultrasound##
-   distance above a surface
+   |##Ultrasound##           |
+   |distance above a surface |
     
-   ##Camera##
-   horizontal motion and speed
+   |##Camera##                  |
+   |horizontal motion and speed |
     
-   ##Pressure Sensor##
-   altitude
+   |##Pressure Sensor##|
+   |altitude           |
     
-   ##IMU##
-   acceleration
-   angular rate
+   |##IMU##     |
+   |acceleration|
+   |angular rate|
     
     
+    ##Flight Control Software Parts##
+    -> State Estimator
+    -> Controller
+    -> Data Logging
+    -> Fault Protection
     
-                            State Estimator  <----      |_______________________|    ---->    Controller
-                                                        |Flight Control Software|    
-                            Data logging     <----      |_______________________|    ---->    Fault protection
                                 
-                                
-                                
-                                
-                                
+   ##YAW##        
+   Motor front right = +Yaw Cmd
+   Motor front left = -Yaw Cmd
+   Motor back right = -Yaw Cmd
+   Motor back left = +Yaw Cmd
+   
+   
+   ##PITCH##
+   Motor front right = +Pitch Cmd
+   Motor front left = +Pitch Cmd
+   Motor back right = -Pitch Cmd
+   Motor back left = -Pitch Cmd
+   
 
+   ##ROLL##
+   Motor front right = +Roll Cmd
+   Motor front left = -Roll Cmd
+   Motor back right = +Roll Cmd
+   Motor back left = -Roll Cmd
+   
+   
+   
+   
