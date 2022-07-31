@@ -83,6 +83,33 @@ In this repository I will design quad copter control system for mini drones.It's
    
    Motor back left = -Roll Cmd
    
------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
+-----------------------------------------------------------------------------------
+  Circuit Layout 
+
+ From: BNO-055                To:Arduino UNO
+ 
+ 
+            Vin---------------> 5V  (red)
+            GND---------------> GND (black)
+            SDA---------------> A4  (green)
+            SCL---------------> A5  (blue)
+            
+
+  Required Hardware
+  Arduino UNO
+  BNO-055 9 Axis
+   
+  Required Software
+  MATLAB
+  MATLAB Support Package for Arduino Hardware Toolbox
+  Sensor Fusion and Tracking Toolbox
+  Instrument Control Toolbox
+  
+  
+  Circuit Layout
+  From:
+  
+  
+  
    
    
