@@ -106,8 +106,7 @@ In this repository I will design quad copter control system for mini drones.It's
   Instrument Control Toolbox
   
   
-  Circuit Layout
-  From:
+  
   
   
   
