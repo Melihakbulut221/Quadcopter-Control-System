@@ -62,6 +62,7 @@ In this repository I will design quad copter control system for mini drones.It's
    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
    PITCH
+   
    Motor front right = +Pitch Cmd
    
    Motor front left = +Pitch Cmd
@@ -73,6 +74,7 @@ In this repository I will design quad copter control system for mini drones.It's
    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
    ROLL
+   
    Motor front right = +Roll Cmd
    
    Motor front left = -Roll Cmd
